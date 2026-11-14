@@ -166,11 +166,6 @@
     "dosya": "kitaplar/the-eternal-husband.txt"
   },
   {
-    "baslik": "The House of the Dead",
-    "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-house-of-the-dead.txt"
-  },
-  {
     "baslik": "The Kreutzer Sonata",
     "yazar": "Tolstoy",
     "dosya": "kitaplar/the-kreutzer-sonata.txt"
@@ -194,11 +189,6 @@
     "baslik": "Bobok",
     "yazar": "Dostoyevski",
     "dosya": "kitaplar/bobok.txt"
-  },
-  {
-    "baslik": "The Grand Inquisitor",
-    "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-grand-inquisitor.txt"
   },
   {
     "baslik": "The Awakening",
@@ -699,5 +689,505 @@
     "bolumler": {
       "part": "^(THOUGHT AND CHARACTER|EFFECT OF THOUGHT ON CIRCUMSTANCES|EFFECT OF THOUGHT ON HEALTH AND THE BODY|THOUGHT AND PURPOSE|THE THOUGHT-FACTOR IN ACHIEVEMENT|VISIONS AND IDEALS|SERENITY)$"
     }
+  },
+  {
+    "baslik": "On the Genealogy of Morals",
+    "yazar": "Nietzsche",
+    "dosya": "kitaplar/genealogy-morals.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The Art of Controversy",
+    "yazar": "Schopenhauer",
+    "dosya": "kitaplar/art-controversy.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The Republic",
+    "yazar": "Platon",
+    "dosya": "kitaplar/republic.txt",
+    "bolumler": {
+      "book": "^BOOK [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "The Autobiography of Benjamin Franklin",
+    "yazar": "Benjamin Franklin",
+    "dosya": "kitaplar/franklin-autobiography.txt",
+    "bolumler": {
+      "bolum": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "On War",
+    "yazar": "Carl von Clausewitz",
+    "dosya": "kitaplar/on-war.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "The Picture of Dorian Gray",
+    "yazar": "Oscar Wilde",
+    "dosya": "kitaplar/dorian-gray.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "The Importance of Being Earnest",
+    "yazar": "Oscar Wilde",
+    "dosya": "kitaplar/earnest.txt",
+    "bolumler": {
+      "act": "^ACT [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Jane Eyre",
+    "yazar": "Charlotte Brontë",
+    "dosya": "kitaplar/jane-eyre.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Wuthering Heights",
+    "yazar": "Emily Brontë",
+    "dosya": "kitaplar/wuthering-heights.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "A Tale of Two Cities",
+    "yazar": "Charles Dickens",
+    "dosya": "kitaplar/tale-of-two-cities.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "A Christmas Carol",
+    "yazar": "Charles Dickens",
+    "dosya": "kitaplar/christmas-carol.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Oliver Twist",
+    "yazar": "Charles Dickens",
+    "dosya": "kitaplar/oliver-twist.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Adventures of Sherlock Holmes",
+    "yazar": "Arthur Conan Doyle",
+    "dosya": "kitaplar/sherlock-adventures.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The Hound of the Baskervilles",
+    "yazar": "Arthur Conan Doyle",
+    "dosya": "kitaplar/hound-baskervilles.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "A Study in Scarlet",
+    "yazar": "Arthur Conan Doyle",
+    "dosya": "kitaplar/study-in-scarlet.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "The Adventures of Tom Sawyer",
+    "yazar": "Mark Twain",
+    "dosya": "kitaplar/tom-sawyer.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Adventures of Huckleberry Finn",
+    "yazar": "Mark Twain",
+    "dosya": "kitaplar/huckleberry-finn.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Alice's Adventures in Wonderland",
+    "yazar": "Lewis Carroll",
+    "dosya": "kitaplar/alice-wonderland.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "The Call of the Wild",
+    "yazar": "Jack London",
+    "dosya": "kitaplar/call-of-the-wild.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "White Fang",
+    "yazar": "Jack London",
+    "dosya": "kitaplar/white-fang.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Martin Eden",
+    "yazar": "Jack London",
+    "dosya": "kitaplar/martin-eden.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "The Time Machine",
+    "yazar": "H. G. Wells",
+    "dosya": "kitaplar/time-machine.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The War of the Worlds",
+    "yazar": "H. G. Wells",
+    "dosya": "kitaplar/war-of-the-worlds.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Journey to the Centre of the Earth",
+    "yazar": "Jules Verne",
+    "dosya": "kitaplar/journey-center-earth.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "The Raven",
+    "yazar": "Edgar Allan Poe",
+    "dosya": "kitaplar/the-raven.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Second Treatise of Government",
+    "yazar": "John Locke",
+    "dosya": "kitaplar/second-treatise.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Apology",
+    "yazar": "Platon",
+    "dosya": "kitaplar/apology.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Poetics",
+    "yazar": "Aristoteles",
+    "dosya": "kitaplar/poetics.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The Discourses of Epictetus",
+    "yazar": "Epiktetos",
+    "dosya": "kitaplar/discourses-epictetus.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Hamlet",
+    "yazar": "William Shakespeare",
+    "dosya": "kitaplar/hamlet.txt",
+    "bolumler": {
+      "act": "^ACT [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Romeo and Juliet",
+    "yazar": "William Shakespeare",
+    "dosya": "kitaplar/romeo-and-juliet.txt",
+    "bolumler": {
+      "act": "^ACT [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Macbeth",
+    "yazar": "William Shakespeare",
+    "dosya": "kitaplar/macbeth.txt",
+    "bolumler": {
+      "act": "^ACT [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Othello",
+    "yazar": "William Shakespeare",
+    "dosya": "kitaplar/othello.txt",
+    "bolumler": {
+      "act": "^ACT [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Heart of Darkness",
+    "yazar": "Joseph Conrad",
+    "dosya": "kitaplar/heart-of-darkness.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The Wonderful Wizard of Oz",
+    "yazar": "L. Frank Baum",
+    "dosya": "kitaplar/wizard-of-oz.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The Trial",
+    "yazar": "Franz Kafka",
+    "dosya": "kitaplar/the-trial.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Frankenstein",
+    "yazar": "Mary Shelley",
+    "dosya": "kitaplar/frankenstein.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Dracula",
+    "yazar": "Bram Stoker",
+    "dosya": "kitaplar/dracula.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Dr. Jekyll and Mr. Hyde",
+    "yazar": "R. L. Stevenson",
+    "dosya": "kitaplar/jekyll-and-hyde.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Treasure Island",
+    "yazar": "R. L. Stevenson",
+    "dosya": "kitaplar/treasure-island.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Pride and Prejudice",
+    "yazar": "Jane Austen",
+    "dosya": "kitaplar/pride-and-prejudice.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Sense and Sensibility",
+    "yazar": "Jane Austen",
+    "dosya": "kitaplar/sense-and-sensibility.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Emma",
+    "yazar": "Jane Austen",
+    "dosya": "kitaplar/emma.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Great Expectations",
+    "yazar": "Charles Dickens",
+    "dosya": "kitaplar/great-expectations.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The Invisible Man",
+    "yazar": "H. G. Wells",
+    "dosya": "kitaplar/invisible-man.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "20,000 Leagues Under the Seas",
+    "yazar": "Jules Verne",
+    "dosya": "kitaplar/twenty-thousand-leagues.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Around the World in 80 Days",
+    "yazar": "Jules Verne",
+    "dosya": "kitaplar/around-the-world.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "The Social Contract",
+    "yazar": "Jean-Jacques Rousseau",
+    "dosya": "kitaplar/social-contract.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Crito",
+    "yazar": "Platon",
+    "dosya": "kitaplar/crito.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Phaedo",
+    "yazar": "Platon",
+    "dosya": "kitaplar/phaedo.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Symposium",
+    "yazar": "Platon",
+    "dosya": "kitaplar/symposium.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "The Nicomachean Ethics",
+    "yazar": "Aristoteles",
+    "dosya": "kitaplar/nicomachean-ethics.txt",
+    "bolumler": {
+      "book": "^BOOK [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Politics",
+    "yazar": "Aristoteles",
+    "dosya": "kitaplar/politics.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Seneca's Morals",
+    "yazar": "Seneca",
+    "dosya": "kitaplar/seneca-morals.txt",
+    "bolumler": {
+      "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+    }
+  },
+  {
+    "baslik": "Peter Pan",
+    "yazar": "J. M. Barrie",
+    "dosya": "kitaplar/peter-pan.txt",
+    "bolumler": {
+      "chapter": "^[IVXLCDM]+\\."
+    }
+  },
+  {
+    "baslik": "Moby-Dick",
+    "yazar": "Herman Melville",
+    "dosya": "kitaplar/moby-dick.txt",
+    "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+  },
+  {
+    "baslik": "Leviathan",
+    "yazar": "Thomas Hobbes",
+    "dosya": "kitaplar/leviathan.txt",
+    "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+  },
+  {
+    "baslik": "The Hunchback of Notre-Dame",
+    "yazar": "Victor Hugo",
+    "dosya": "kitaplar/hunchback-notre-dame.txt",
+    "chapter": "^[IVXLCDM]+\\."
+  },
+  {
+    "baslik": "The Count of Monte Cristo",
+    "yazar": "Alexandre Dumas",
+    "dosya": "kitaplar/count-monte-cristo.txt",
+    "chapter": "^[IVXLCDM]+\\."
+  },
+  {
+    "baslik": "The Three Musketeers",
+    "yazar": "Alexandre Dumas",
+    "dosya": "kitaplar/three-musketeers.txt",
+    "chapter": "^[IVXLCDM]+\\."
+  },
+  {
+    "baslik": "Don Quixote",
+    "yazar": "Miguel de Cervantes",
+    "dosya": "kitaplar/don-quixote.txt",
+    "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
+  },
+  {
+    "baslik": "The Odyssey",
+    "yazar": "Homeros",
+    "dosya": "kitaplar/odyssey.txt",
+    "book": "^BOOK [IVXLCDM0-9]+\\.?"
+  },
+  {
+    "baslik": "The Iliad",
+    "yazar": "Homeros",
+    "dosya": "kitaplar/iliad.txt",
+    "book": "^BOOK [IVXLCDM0-9]+\\.?"
+  },
+  {
+    "baslik": "Divine Comedy",
+    "yazar": "Dante Alighieri",
+    "dosya": "kitaplar/divine-comedy.txt",
+    "chapter": "^[IVXLCDM]+\\."
+  },
+  {
+    "baslik": "Les Misérables",
+    "yazar": "Victor Hugo",
+    "dosya": "kitaplar/les-miserables.txt",
+    "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
   }
 ]
