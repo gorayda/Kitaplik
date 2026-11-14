@@ -9,7 +9,7 @@
     v.id = "kisisel";
     v.style.cssText = "margin:14px 0 20px";
     var h = document.createElement("h3");
-    h.textContent = "🌱 Kişisel Gelişim Rafı";
+    h.textContent = "🇺🇸 🌱 Kişisel Gelişim Rafı";
     var a = document.createElement("p");
     a.style.cssText = "color:var(--soluk);margin:0 0 8px;font-size:15px";
     a.textContent = "Stoacı bilgelik, düşünce ve karakter üzerine kısa klasikler (" + l.length + " kitap)";
