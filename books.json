@@ -8,7 +8,9 @@
       "part": "^(PART [IVX]+|EPILOGUE)$",
       "chapter": "^CHAPTER [IVX]+$"
     },
-    "analiz": "analiz/crime-and-punishment.json"
+    "analiz": "analiz/crime-and-punishment.json",
+    "dosya_tm": "kitaplar/tm/crime-and-punishment.txt",
+    "baslik_tm": "Jenaýat we Jeza (Crime and Punishment)"
   },
   {
     "baslik": "The Brothers Karamazov",
@@ -17,7 +19,9 @@
     "bolumler": {
       "part": "^(PART [IVX]+|EPILOGUE)$"
     },
-    "rehber": "rehber/brothers-karamazov.json"
+    "rehber": "rehber/brothers-karamazov.json",
+    "dosya_tm": "kitaplar/tm/brothers-karamazov.txt",
+    "baslik_tm": "Karamazow Doganlar (The Brothers Karamazov)"
   },
   {
     "baslik": "War and Peace",
@@ -26,7 +30,9 @@
     "bolumler": {
       "part": "^(BOOK [A-Z]+:.*|FIRST EPILOGUE.*|SECOND EPILOGUE.*)$",
       "chapter": "^CHAPTER [IVXLC]+$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/war-and-peace.txt",
+    "baslik_tm": "Uruş we Parahatçylyk (War and Peace)"
   },
   {
     "baslik": "Anna Karenina",
@@ -35,7 +41,9 @@
     "bolumler": {
       "part": "^PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT)$"
     },
-    "analiz": "analiz/anna-karenina.json"
+    "analiz": "analiz/anna-karenina.json",
+    "dosya_tm": "kitaplar/tm/anna-karenina.txt",
+    "baslik_tm": "Anna Karenina"
   },
   {
     "baslik": "The Idiot",
@@ -43,7 +51,9 @@
     "dosya": "kitaplar/the-idiot.txt",
     "bolumler": {
       "part": "^PART [IVX]+$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/the-idiot.txt",
+    "baslik_tm": "Akmak (The Idiot)"
   },
   {
     "baslik": "Notes from Underground",
@@ -51,17 +61,23 @@
     "dosya": "kitaplar/notes-from-underground.txt",
     "bolumler": {
       "part": "^PART [IVX]+$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/notes-from-underground.txt",
+    "baslik_tm": "Ýerastyndan Bellikler (Notes from Underground)"
   },
   {
     "baslik": "Resurrection",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/resurrection.txt"
+    "dosya": "kitaplar/resurrection.txt",
+    "dosya_tm": "kitaplar/tm/resurrection.txt",
+    "baslik_tm": "Täzeden Direliş (Resurrection)"
   },
   {
     "baslik": "The Possessed",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-possessed.txt"
+    "dosya": "kitaplar/the-possessed.txt",
+    "dosya_tm": "kitaplar/tm/the-possessed.txt",
+    "baslik_tm": "Jynlylar (The Possessed)"
   },
   {
     "baslik": "The Gambler",
@@ -69,37 +85,51 @@
     "dosya": "kitaplar/the-gambler.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/the-gambler.txt",
+    "baslik_tm": "Humarbaz (The Gambler)"
   },
   {
     "baslik": "Poor Folk",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/poor-folk.txt"
+    "dosya": "kitaplar/poor-folk.txt",
+    "dosya_tm": "kitaplar/tm/poor-folk.txt",
+    "baslik_tm": "Garyp Adamlar (Poor Folk)"
   },
   {
     "baslik": "The House of the Dead",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/house-of-the-dead.txt"
+    "dosya": "kitaplar/house-of-the-dead.txt",
+    "dosya_tm": "kitaplar/tm/house-of-the-dead.txt",
+    "baslik_tm": "Ölüler Öýünden Ýatlamalar"
   },
   {
     "baslik": "White Nights and Other Stories",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/white-nights.txt"
+    "dosya": "kitaplar/white-nights.txt",
+    "dosya_tm": "kitaplar/tm/white-nights.txt",
+    "baslik_tm": "Ak Gijeler (White Nights)"
   },
   {
     "baslik": "Uncle's Dream and The Permanent Husband",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/uncles-dream.txt"
+    "dosya": "kitaplar/uncles-dream.txt",
+    "dosya_tm": "kitaplar/tm/uncles-dream.txt",
+    "baslik_tm": "Daýynyň Düýşi (Uncle's Dream)"
   },
   {
     "baslik": "The Grand Inquisitor",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/grand-inquisitor.txt"
+    "dosya": "kitaplar/grand-inquisitor.txt",
+    "dosya_tm": "kitaplar/tm/grand-inquisitor.txt",
+    "baslik_tm": "Beýik Inkwizitor (The Grand Inquisitor)"
   },
   {
     "baslik": "Childhood",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/childhood.txt"
+    "dosya": "kitaplar/childhood.txt",
+    "dosya_tm": "kitaplar/tm/childhood.txt",
+    "baslik_tm": "Çagalyk (Childhood)"
   },
   {
     "baslik": "Boyhood",
@@ -107,22 +137,30 @@
     "dosya": "kitaplar/boyhood.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/boyhood.txt",
+    "baslik_tm": "Ýetginjeklik (Boyhood)"
   },
   {
     "baslik": "Youth",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/youth.txt"
+    "dosya": "kitaplar/youth.txt",
+    "dosya_tm": "kitaplar/tm/youth.txt",
+    "baslik_tm": "Ýaşlyk (Youth)"
   },
   {
     "baslik": "The Cossacks",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-cossacks.txt"
+    "dosya": "kitaplar/the-cossacks.txt",
+    "dosya_tm": "kitaplar/tm/the-cossacks.txt",
+    "baslik_tm": "Kazaklar (The Cossacks)"
   },
   {
     "baslik": "The Kreutzer Sonata and Other Stories",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/kreutzer-sonata.txt"
+    "dosya": "kitaplar/kreutzer-sonata.txt",
+    "dosya_tm": "kitaplar/tm/kreutzer-sonata.txt",
+    "baslik_tm": "Kroýser Sonatasy (The Kreutzer Sonata)"
   },
   {
     "baslik": "Master and Man",
@@ -130,17 +168,23 @@
     "dosya": "kitaplar/master-and-man.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/master-and-man.txt",
+    "baslik_tm": "Hojaýyn we Hyzmatkär (Master and Man)"
   },
   {
     "baslik": "What Men Live By, and Other Tales",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/what-men-live-by.txt"
+    "dosya": "kitaplar/what-men-live-by.txt",
+    "dosya_tm": "kitaplar/tm/what-men-live-by.txt",
+    "baslik_tm": "Adam Näme Bilen Ýaşaýar?"
   },
   {
     "baslik": "Sevastopol",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/sevastopol.txt"
+    "dosya": "kitaplar/sevastopol.txt",
+    "dosya_tm": "kitaplar/tm/sevastopol.txt",
+    "baslik_tm": "Sewastopol Hekaýalary"
   },
   {
     "baslik": "A Letter to a Hindu",
@@ -148,192 +192,268 @@
     "dosya": "kitaplar/letter-to-a-hindu.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/letter-to-a-hindu.txt",
+    "baslik_tm": "Bir Hinduwa Hat (A Letter to a Hindu)"
   },
   {
     "baslik": "The Double",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-double.txt"
+    "dosya": "kitaplar/the-double.txt",
+    "dosya_tm": "kitaplar/tm/the-double.txt",
+    "baslik_tm": "Ikinji Men (The Double)"
   },
   {
     "baslik": "The Adolescent",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-adolescent.txt"
+    "dosya": "kitaplar/the-adolescent.txt",
+    "dosya_tm": "kitaplar/tm/the-adolescent.txt",
+    "baslik_tm": "Ýetginjek (The Adolescent)"
   },
   {
     "baslik": "The Eternal Husband",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-eternal-husband.txt"
+    "dosya": "kitaplar/the-eternal-husband.txt",
+    "dosya_tm": "kitaplar/tm/the-eternal-husband.txt",
+    "baslik_tm": "Baky Är (The Eternal Husband)"
   },
   {
     "baslik": "The Kreutzer Sonata",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-kreutzer-sonata.txt"
+    "dosya": "kitaplar/the-kreutzer-sonata.txt",
+    "dosya_tm": "kitaplar/tm/kreutzer-sonata.txt",
+    "baslik_tm": "Kroýser Sonatasy (The Kreutzer Sonata)"
   },
   {
     "baslik": "The Death of Ivan Ilyich",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-death-of-ivan-ilyich.txt"
+    "dosya": "kitaplar/the-death-of-ivan-ilyich.txt",
+    "dosya_tm": "kitaplar/tm/the-death-of-ivan-ilyich.txt",
+    "baslik_tm": "Iwan Ilýiçiň Ölümi"
   },
   {
     "baslik": "Hadji Murad",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/hadji-murad.txt"
+    "dosya": "kitaplar/hadji-murad.txt",
+    "dosya_tm": "kitaplar/tm/hadji-murad.txt",
+    "baslik_tm": "Hajy Myrat (Hadji Murad)"
   },
   {
     "baslik": "The Crocodile",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-crocodile.txt"
+    "dosya": "kitaplar/the-crocodile.txt",
+    "dosya_tm": "kitaplar/tm/the-crocodile.txt",
+    "baslik_tm": "Timsah (The Crocodile)"
   },
   {
     "baslik": "Bobok",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/bobok.txt"
+    "dosya": "kitaplar/bobok.txt",
+    "dosya_tm": "kitaplar/tm/bobok.txt",
+    "baslik_tm": "Bobok (Bobok)"
   },
   {
     "baslik": "The Awakening",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-awakening.txt"
+    "dosya": "kitaplar/the-awakening.txt",
+    "dosya_tm": "kitaplar/tm/the-awakening.txt",
+    "baslik_tm": "Oýanyş (The Awakening)"
   },
   {
     "baslik": "The Kingdom of God Is Within You",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-kingdom-of-god-is-within-you.txt"
+    "dosya": "kitaplar/the-kingdom-of-god-is-within-you.txt",
+    "dosya_tm": "kitaplar/tm/the-kingdom-of-god-is-within-you.txt",
+    "baslik_tm": "Hudaýyň Patyşalygy Içiňizdedir"
   },
   {
     "baslik": "What Is Art?",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/what-is-art.txt"
+    "dosya": "kitaplar/what-is-art.txt",
+    "dosya_tm": "kitaplar/tm/what-is-art.txt",
+    "baslik_tm": "Sungat Nämedir? (What Is Art?)"
   },
   {
     "baslik": "The Forged Coupon",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-forged-coupon.txt"
+    "dosya": "kitaplar/the-forged-coupon.txt",
+    "dosya_tm": "kitaplar/tm/the-forged-coupon.txt",
+    "baslik_tm": "Galp Kupon (The Forged Coupon)"
   },
   {
     "baslik": "Father Sergius",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/father-sergius.txt"
+    "dosya": "kitaplar/father-sergius.txt",
+    "dosya_tm": "kitaplar/tm/father-sergius.txt",
+    "baslik_tm": "Ata Sergiý (Father Sergius)"
   },
   {
     "baslik": "Family Happiness",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/family-happiness.txt"
+    "dosya": "kitaplar/family-happiness.txt",
+    "dosya_tm": "kitaplar/tm/family-happiness.txt",
+    "baslik_tm": "Maşgala Bagty (Family Happiness)"
   },
   {
     "baslik": "Netochka Nezvanova",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/netochka-nezvanova.txt"
+    "dosya": "kitaplar/netochka-nezvanova.txt",
+    "dosya_tm": "kitaplar/tm/netochka-nezvanova.txt",
+    "baslik_tm": "Netoçka Nezvanova"
   },
   {
     "baslik": "The Insulted and Humiliated",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-insulted-and-humiliated.txt"
+    "dosya": "kitaplar/the-insulted-and-humiliated.txt",
+    "dosya_tm": "kitaplar/tm/the-insulted-and-humiliated.txt",
+    "baslik_tm": "Kemsidilenler we Horlananlar"
   },
   {
     "baslik": "The Village of Stepanchikovo",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-village-of-stepanchikovo.txt"
+    "dosya": "kitaplar/the-village-of-stepanchikovo.txt",
+    "dosya_tm": "kitaplar/tm/the-village-of-stepanchikovo.txt",
+    "baslik_tm": "Stepançikowo Obasy"
   },
   {
     "baslik": "A Raw Youth",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/a-raw-youth.txt"
+    "dosya": "kitaplar/a-raw-youth.txt",
+    "dosya_tm": "kitaplar/tm/a-raw-youth.txt",
+    "baslik_tm": "Çig Ýetginjek (A Raw Youth)"
   },
   {
     "baslik": "A Faint Heart",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/a-faint-heart.txt"
+    "dosya": "kitaplar/a-faint-heart.txt",
+    "dosya_tm": "kitaplar/tm/a-faint-heart.txt",
+    "baslik_tm": "Gowşak Ýürek (A Faint Heart)"
   },
   {
     "baslik": "The Landlady",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/the-landlady.txt"
+    "dosya": "kitaplar/the-landlady.txt",
+    "dosya_tm": "kitaplar/tm/the-landlady.txt",
+    "baslik_tm": "Öý Eýesi Aýal (The Landlady)"
   },
   {
     "baslik": "The Grishka Trilogy",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-grishka-trilogy.txt"
+    "dosya": "kitaplar/the-grishka-trilogy.txt",
+    "dosya_tm": "kitaplar/tm/the-grishka-trilogy.txt",
+    "baslik_tm": "Grişka Üçlemesi"
   },
   {
     "baslik": "The Decembrists",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-decembrists.txt"
+    "dosya": "kitaplar/the-decembrists.txt",
+    "dosya_tm": "kitaplar/tm/the-decembrists.txt",
+    "baslik_tm": "Dekabristler (The Decembrists)"
   },
   {
     "baslik": "A Prisoner in the Caucasus",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/a-prisoner-in-the-caucasus.txt"
+    "dosya": "kitaplar/a-prisoner-in-the-caucasus.txt",
+    "dosya_tm": "kitaplar/tm/a-prisoner-in-the-caucasus.txt",
+    "baslik_tm": "Kawkaz Ýesiri"
   },
   {
     "baslik": "Albert",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/albert.txt"
+    "dosya": "kitaplar/albert.txt",
+    "dosya_tm": "kitaplar/tm/albert.txt",
+    "baslik_tm": "Albert (Albert)"
   },
   {
     "baslik": "Two Hussars",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/two-hussars.txt"
+    "dosya": "kitaplar/two-hussars.txt",
+    "dosya_tm": "kitaplar/tm/two-hussars.txt",
+    "baslik_tm": "Iki Gusar (Two Hussars)"
   },
   {
     "baslik": "The Sea-Gull",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-sea-gull.txt"
+    "dosya": "kitaplar/the-sea-gull.txt",
+    "dosya_tm": "kitaplar/tm/the-sea-gull.txt",
+    "baslik_tm": "Çaýka (The Sea-Gull)"
   },
   {
     "baslik": "The Lady with the Dog and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-lady-with-the-dog-and-other-stories.txt"
+    "dosya": "kitaplar/the-lady-with-the-dog-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-lady-with-the-dog-and-other-stories.txt",
+    "baslik_tm": "Itli Zenan we Beýleki Hekaýalar"
   },
   {
     "baslik": "Uncle Vanya",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/uncle-vanya.txt"
+    "dosya": "kitaplar/uncle-vanya.txt",
+    "dosya_tm": "kitaplar/tm/uncle-vanya.txt",
+    "baslik_tm": "Wanýa Daýy (Uncle Vanya)"
   },
   {
     "baslik": "The Schoolmistress, and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-schoolmistress-and-other-stories.txt"
+    "dosya": "kitaplar/the-schoolmistress-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-schoolmistress-and-other-stories.txt",
+    "baslik_tm": "Oba Mugallymy we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Wife, and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-wife-and-other-stories.txt"
+    "dosya": "kitaplar/the-wife-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-wife-and-other-stories.txt",
+    "baslik_tm": "Aýal we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Bet, and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-bet-and-other-stories.txt"
+    "dosya": "kitaplar/the-bet-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-bet-and-other-stories.txt",
+    "baslik_tm": "Jedel we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Cook's Wedding and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-cook-s-wedding-and-other-stories.txt"
+    "dosya": "kitaplar/the-cook-s-wedding-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-cook-s-wedding-and-other-stories.txt",
+    "baslik_tm": "Aşpeziň Toýy we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Duel and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-duel-and-other-stories.txt"
+    "dosya": "kitaplar/the-duel-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-duel-and-other-stories.txt",
+    "baslik_tm": "Duel we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Witch, and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-witch-and-other-stories.txt"
+    "dosya": "kitaplar/the-witch-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-witch-and-other-stories.txt",
+    "baslik_tm": "Jadygöý we Beýleki Hekaýalar"
   },
   {
     "baslik": "Love, and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/love-and-other-stories.txt"
+    "dosya": "kitaplar/love-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/love-and-other-stories.txt",
+    "baslik_tm": "Söýgi we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Darling and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-darling-and-other-stories.txt"
+    "dosya": "kitaplar/the-darling-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-darling-and-other-stories.txt",
+    "baslik_tm": "Mähribanym we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Bishop and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-bishop-and-other-stories.txt"
+    "dosya": "kitaplar/the-bishop-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-bishop-and-other-stories.txt",
+    "baslik_tm": "Ýepiskop we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Schoolmaster and Other Stories",
@@ -341,7 +461,9 @@
     "dosya": "kitaplar/the-schoolmaster-and-other-stories.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/the-schoolmaster-and-other-stories.txt",
+    "baslik_tm": "Mugallym we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Chorus Girl and Other Stories",
@@ -349,32 +471,44 @@
     "dosya": "kitaplar/the-chorus-girl-and-other-stories.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/the-chorus-girl-and-other-stories.txt",
+    "baslik_tm": "Hor Aýdymçysy we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Party and Other Stories",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-party-and-other-stories.txt"
+    "dosya": "kitaplar/the-party-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-party-and-other-stories.txt",
+    "baslik_tm": "Agşamlyk Mejlisi we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Three Sisters",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-three-sisters.txt"
+    "dosya": "kitaplar/the-three-sisters.txt",
+    "dosya_tm": "kitaplar/tm/the-three-sisters.txt",
+    "baslik_tm": "Üç Uýa (The Three Sisters)"
   },
   {
     "baslik": "Ivanoff: A Play",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/ivanoff-a-play.txt"
+    "dosya": "kitaplar/ivanoff-a-play.txt",
+    "dosya_tm": "kitaplar/tm/ivanoff-a-play.txt",
+    "baslik_tm": "Iwanow (Ivanoff)"
   },
   {
     "baslik": "Swan Song",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/swan-song.txt"
+    "dosya": "kitaplar/swan-song.txt",
+    "dosya_tm": "kitaplar/tm/swan-song.txt",
+    "baslik_tm": "Guw Aýdymy (Swan Song)"
   },
   {
     "baslik": "The Slanderer",
     "yazar": "Chekhov",
-    "dosya": "kitaplar/the-slanderer.txt"
+    "dosya": "kitaplar/the-slanderer.txt",
+    "dosya_tm": "kitaplar/tm/the-slanderer.txt",
+    "baslik_tm": "Töhmetçi (The Slanderer)"
   },
   {
     "baslik": "The Shooting Party",
@@ -382,27 +516,37 @@
     "dosya": "kitaplar/the-shooting-party.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/the-shooting-party.txt",
+    "baslik_tm": "Awçylyk Mejlisi (The Shooting Party)"
   },
   {
     "baslik": "Dead Souls",
     "yazar": "Gogol",
-    "dosya": "kitaplar/dead-souls.txt"
+    "dosya": "kitaplar/dead-souls.txt",
+    "dosya_tm": "kitaplar/tm/dead-souls.txt",
+    "baslik_tm": "Öli Janlar (Dead Souls)"
   },
   {
     "baslik": "The Mantle, and Other Stories",
     "yazar": "Gogol",
-    "dosya": "kitaplar/the-mantle-and-other-stories.txt"
+    "dosya": "kitaplar/the-mantle-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-mantle-and-other-stories.txt",
+    "baslik_tm": "Şinel we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Inspector-General",
     "yazar": "Gogol",
-    "dosya": "kitaplar/the-inspector-general.txt"
+    "dosya": "kitaplar/the-inspector-general.txt",
+    "dosya_tm": "kitaplar/tm/the-inspector-general.txt",
+    "baslik_tm": "Rewizor (The Inspector General)"
   },
   {
     "baslik": "Taras Bulba, and Other Tales",
     "yazar": "Gogol",
-    "dosya": "kitaplar/taras-bulba-and-other-tales.txt"
+    "dosya": "kitaplar/taras-bulba-and-other-tales.txt",
+    "dosya_tm": "kitaplar/tm/taras-bulba-and-other-tales.txt",
+    "baslik_tm": "Taras Bulba we Beýleki Powestler"
   },
   {
     "baslik": "Cossack Tales",
@@ -410,7 +554,9 @@
     "dosya": "kitaplar/cossack-tales.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/cossack-tales.txt",
+    "baslik_tm": "Kazak Powestleri (Cossack Tales)"
   },
   {
     "baslik": "Fathers and Children",
@@ -418,37 +564,51 @@
     "dosya": "kitaplar/fathers-and-children.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/fathers-and-children.txt",
+    "baslik_tm": "Atalar we Çagalar (Fathers and Children)"
   },
   {
     "baslik": "A Nobleman's Nest",
     "yazar": "Turgenev",
-    "dosya": "kitaplar/a-nobleman-s-nest.txt"
+    "dosya": "kitaplar/a-nobleman-s-nest.txt",
+    "dosya_tm": "kitaplar/tm/a-nobleman-s-nest.txt",
+    "baslik_tm": "Begzadalar Öýi (A Nobleman's Nest)"
   },
   {
     "baslik": "The Torrents of Spring",
     "yazar": "Turgenev",
-    "dosya": "kitaplar/the-torrents-of-spring.txt"
+    "dosya": "kitaplar/the-torrents-of-spring.txt",
+    "dosya_tm": "kitaplar/tm/the-torrents-of-spring.txt",
+    "baslik_tm": "Bahar Silleri (The Torrents of Spring)"
   },
   {
     "baslik": "First love, and other stories",
     "yazar": "Turgenev",
-    "dosya": "kitaplar/first-love-and-other-stories.txt"
+    "dosya": "kitaplar/first-love-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/first-love-and-other-stories.txt",
+    "baslik_tm": "Ilkinji Söýgi we Beýleki Hekaýalar"
   },
   {
     "baslik": "A Sportsman's Sketches",
     "yazar": "Turgenev",
-    "dosya": "kitaplar/a-sportsman-s-sketches.txt"
+    "dosya": "kitaplar/a-sportsman-s-sketches.txt",
+    "dosya_tm": "kitaplar/tm/a-sportsman-s-sketches.txt",
+    "baslik_tm": "Awçynyň Ýazgylary I"
   },
   {
     "baslik": "A Sportsman's Sketches, Volume 2",
     "yazar": "Turgenev",
-    "dosya": "kitaplar/a-sportsman-s-sketches-volume-2.txt"
+    "dosya": "kitaplar/a-sportsman-s-sketches-volume-2.txt",
+    "dosya_tm": "kitaplar/tm/a-sportsman-s-sketches-volume-2.txt",
+    "baslik_tm": "Awçynyň Ýazgylary II"
   },
   {
     "baslik": "Dream Tales and Prose Poems",
     "yazar": "Turgenev",
-    "dosya": "kitaplar/dream-tales-and-prose-poems.txt"
+    "dosya": "kitaplar/dream-tales-and-prose-poems.txt",
+    "dosya_tm": "kitaplar/tm/dream-tales-and-prose-poems.txt",
+    "baslik_tm": "Arzuw Hekaýalary we Kyssa Goşgulary"
   },
   {
     "baslik": "On the eve: A novel",
@@ -456,7 +616,9 @@
     "dosya": "kitaplar/on-the-eve-a-novel.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/on-the-eve-a-novel.txt",
+    "baslik_tm": "Öňüsyrasynda (On the Eve)"
   },
   {
     "baslik": "Virgin Soil",
@@ -464,17 +626,23 @@
     "dosya": "kitaplar/virgin-soil.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/virgin-soil.txt",
+    "baslik_tm": "Täze Toprak (Virgin Soil)"
   },
   {
     "baslik": "A Lear of the Steppes, etc.",
     "yazar": "Turgenev",
-    "dosya": "kitaplar/a-lear-of-the-steppes-etc.txt"
+    "dosya": "kitaplar/a-lear-of-the-steppes-etc.txt",
+    "dosya_tm": "kitaplar/tm/a-lear-of-the-steppes-etc.txt",
+    "baslik_tm": "Sähra Korol Liri"
   },
   {
     "baslik": "The Jew and Other Stories",
     "yazar": "Turgenev",
-    "dosya": "kitaplar/the-jew-and-other-stories.txt"
+    "dosya": "kitaplar/the-jew-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-jew-and-other-stories.txt",
+    "baslik_tm": "Ýewreý we Beýleki Hekaýalar"
   },
   {
     "baslik": "Smoke",
@@ -482,12 +650,16 @@
     "dosya": "kitaplar/smoke.txt",
     "bolumler": {
       "part": "^[IVXLC]{1,6}\\.?\\s*$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/smoke.txt",
+    "baslik_tm": "Tüsse (Smoke)"
   },
   {
     "baslik": "Stavrogin's Confession",
     "yazar": "Dostoyevski",
-    "dosya": "kitaplar/stavrogin-s-confession.txt"
+    "dosya": "kitaplar/stavrogin-s-confession.txt",
+    "dosya_tm": "kitaplar/tm/stavrogin-s-confession.txt",
+    "baslik_tm": "Stawroginiň Tobasy"
   },
   {
     "baslik": "The Devil",
@@ -495,47 +667,65 @@
     "dosya": "kitaplar/the-devil.txt",
     "bolumler": {
       "part": "^CHAPTER\\s+[IVXLC\\d]+\\b"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/the-devil.txt",
+    "baslik_tm": "Şeýtan (The Devil)"
   },
   {
     "baslik": "Where Love Is, God Is Also",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/where-love-is-god-is-also.txt"
+    "dosya": "kitaplar/where-love-is-god-is-also.txt",
+    "dosya_tm": "kitaplar/tm/where-love-is-god-is-also.txt",
+    "baslik_tm": "Söýgi Bar Ýerinde Hudaý Bardyr"
   },
   {
     "baslik": "A Russian Proprietor, and Other Stories",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/a-russian-proprietor-and-other-stories.txt"
+    "dosya": "kitaplar/a-russian-proprietor-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/a-russian-proprietor-and-other-stories.txt",
+    "baslik_tm": "Rus Ýer Eýesi we Beýleki Hekaýalar"
   },
   {
     "baslik": "The Invaders, and Other Stories",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-invaders-and-other-stories.txt"
+    "dosya": "kitaplar/the-invaders-and-other-stories.txt",
+    "dosya_tm": "kitaplar/tm/the-invaders-and-other-stories.txt",
+    "baslik_tm": "Basybalyjylar we Beýleki Hekaýalar"
   },
   {
     "baslik": "Fables for Children, Stories for Children",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/fables-for-children-stories-for-children.txt"
+    "dosya": "kitaplar/fables-for-children-stories-for-children.txt",
+    "dosya_tm": "kitaplar/tm/fables-for-children-stories-for-children.txt",
+    "baslik_tm": "Çagalar Üçin Basnýalar we Hekaýalar"
   },
   {
     "baslik": "The Power of Darkness",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-power-of-darkness.txt"
+    "dosya": "kitaplar/the-power-of-darkness.txt",
+    "dosya_tm": "kitaplar/tm/the-power-of-darkness.txt",
+    "baslik_tm": "Garaňkylygyň Hökmürowanlygy"
   },
   {
     "baslik": "The Live Corpse",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/the-live-corpse.txt"
+    "dosya": "kitaplar/the-live-corpse.txt",
+    "dosya_tm": "kitaplar/tm/the-live-corpse.txt",
+    "baslik_tm": "Diri Jeset (The Live Corpse)"
   },
   {
     "baslik": "Fruits of Culture",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/fruits-of-culture.txt"
+    "dosya": "kitaplar/fruits-of-culture.txt",
+    "dosya_tm": "kitaplar/tm/fruits-of-culture.txt",
+    "baslik_tm": "Medeniýetiň Miweleri"
   },
   {
     "baslik": "Redemption, and Two Other Plays",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/redemption-and-two-other-plays.txt"
+    "dosya": "kitaplar/redemption-and-two-other-plays.txt",
+    "dosya_tm": "kitaplar/tm/redemption-and-two-other-plays.txt",
+    "baslik_tm": "Halas Boluş we Beýleki Pýesalar"
   },
   {
     "baslik": "What Shall We Do?",
@@ -543,7 +733,9 @@
     "dosya": "kitaplar/what-shall-we-do.txt",
     "bolumler": {
       "part": "^CHAPTER\\s+[IVXLC\\d]+\\b"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/what-shall-we-do.txt",
+    "baslik_tm": "Onda Näme Etmeli?"
   },
   {
     "baslik": "My Religion",
@@ -551,12 +743,16 @@
     "dosya": "kitaplar/my-religion.txt",
     "bolumler": {
       "part": "^CHAPTER\\s+[IVXLC\\d]+\\b"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/my-religion.txt",
+    "baslik_tm": "Meniň Ynanjym (My Religion)"
   },
   {
     "baslik": "Bethink Yourselves!",
     "yazar": "Tolstoy",
-    "dosya": "kitaplar/bethink-yourselves.txt"
+    "dosya": "kitaplar/bethink-yourselves.txt",
+    "dosya_tm": "kitaplar/tm/bethink-yourselves.txt",
+    "baslik_tm": "Özüňize Geliň!"
   },
   {
     "baslik": "The Koran (Al-Qur'an)",
@@ -572,7 +768,9 @@
     "dosya": "kitaplar/the-prince.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVX]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/the-prince.txt",
+    "baslik_tm": "Hökümdar (The Prince)"
   },
   {
     "baslik": "Thus Spake Zarathustra",
@@ -580,7 +778,9 @@
     "dosya": "kitaplar/thus-spake-zarathustra.txt",
     "bolumler": {
       "part": "^(FIRST|SECOND|THIRD|FOURTH AND LAST) PART"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/thus-spake-zarathustra.txt",
+    "baslik_tm": "Zerdüşt Şeýle Diýdi (Thus Spake Zarathustra)"
   },
   {
     "baslik": "Beyond Good and Evil",
@@ -588,7 +788,9 @@
     "dosya": "kitaplar/beyond-good-and-evil.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVX]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/beyond-good-and-evil.txt",
+    "baslik_tm": "Ýagşylygyň we Ýamanlygyň Aňyrsynda"
   },
   {
     "baslik": "The Genealogy of Morals",
@@ -596,67 +798,93 @@
     "dosya": "kitaplar/genealogy-of-morals.txt",
     "bolumler": {
       "part": "^(FIRST|SECOND|THIRD) ESSAY"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/genealogy-of-morals.txt",
+    "baslik_tm": "Ahlagyň Gelip Çykyşy"
   },
   {
     "baslik": "The Antichrist",
     "yazar": "Nietzsche",
-    "dosya": "kitaplar/the-antichrist.txt"
+    "dosya": "kitaplar/the-antichrist.txt",
+    "dosya_tm": "kitaplar/tm/the-antichrist.txt",
+    "baslik_tm": "Antihrist (The Antichrist)"
   },
   {
     "baslik": "Twilight of the Idols",
     "yazar": "Nietzsche",
-    "dosya": "kitaplar/twilight-of-the-idols.txt"
+    "dosya": "kitaplar/twilight-of-the-idols.txt",
+    "dosya_tm": "kitaplar/tm/twilight-of-the-idols.txt",
+    "baslik_tm": "Butlaryň Ýaşmagy"
   },
   {
     "baslik": "Ecce Homo",
     "yazar": "Nietzsche",
-    "dosya": "kitaplar/ecce-homo.txt"
+    "dosya": "kitaplar/ecce-homo.txt",
+    "dosya_tm": "kitaplar/tm/ecce-homo.txt",
+    "baslik_tm": "Ecce Homo — Ine, Ynsan"
   },
   {
     "baslik": "Human, All Too Human",
     "yazar": "Nietzsche",
-    "dosya": "kitaplar/human-all-too-human.txt"
+    "dosya": "kitaplar/human-all-too-human.txt",
+    "dosya_tm": "kitaplar/tm/human-all-too-human.txt",
+    "baslik_tm": "Ynsan, Örän Ynsan"
   },
   {
     "baslik": "The Joyful Wisdom",
     "yazar": "Nietzsche",
-    "dosya": "kitaplar/the-joyful-wisdom.txt"
+    "dosya": "kitaplar/the-joyful-wisdom.txt",
+    "dosya_tm": "kitaplar/tm/the-joyful-wisdom.txt",
+    "baslik_tm": "Şadyýan Hikmet"
   },
   {
     "baslik": "The Dawn of Day",
     "yazar": "Nietzsche",
-    "dosya": "kitaplar/the-dawn-of-day.txt"
+    "dosya": "kitaplar/the-dawn-of-day.txt",
+    "dosya_tm": "kitaplar/tm/the-dawn-of-day.txt",
+    "baslik_tm": "Daň Şapagy"
   },
   {
     "baslik": "The Will to Power",
     "yazar": "Nietzsche",
-    "dosya": "kitaplar/the-will-to-power.txt"
+    "dosya": "kitaplar/the-will-to-power.txt",
+    "dosya_tm": "kitaplar/tm/the-will-to-power.txt",
+    "baslik_tm": "Häkimiýet Islegi"
   },
   {
     "baslik": "The Birth of Tragedy",
     "yazar": "Nietzsche",
-    "dosya": "kitaplar/the-birth-of-tragedy.txt"
+    "dosya": "kitaplar/the-birth-of-tragedy.txt",
+    "dosya_tm": "kitaplar/tm/the-birth-of-tragedy.txt",
+    "baslik_tm": "Tragediýanyň Dogluşy"
   },
   {
     "baslik": "The Art of War and The Prince",
     "yazar": "Machiavelli",
-    "dosya": "kitaplar/machiavelli-art-of-war.txt"
+    "dosya": "kitaplar/machiavelli-art-of-war.txt",
+    "dosya_tm": "kitaplar/tm/the-art-of-war.txt",
+    "baslik_tm": "Söweş Sungaty (The Art of War)"
   },
   {
     "baslik": "Discourses on Livy",
     "yazar": "Machiavelli",
-    "dosya": "kitaplar/discourses-on-livy.txt"
+    "dosya": "kitaplar/discourses-on-livy.txt",
+    "dosya_tm": "kitaplar/tm/discourses-on-livy.txt",
+    "baslik_tm": "Titus Liwiý Barada Oýlanmalar"
   },
   {
     "baslik": "The Crowd",
     "yazar": "Le Bon",
-    "dosya": "kitaplar/the-crowd.txt"
+    "dosya": "kitaplar/the-crowd.txt",
+    "dosya_tm": "kitaplar/tm/the-crowd.txt",
+    "baslik_tm": "Köpçüligiň Psihologiýasy (The Crowd)"
   },
   {
     "baslik": "The Art of War (Sun Tzu)",
     "yazar": "Sun Tzu",
-    "dosya": "kitaplar/sun-tzu-art-of-war.txt"
+    "dosya": "kitaplar/sun-tzu-art-of-war.txt",
+    "dosya_tm": "kitaplar/tm/the-art-of-war.txt",
+    "baslik_tm": "Söweş Sungaty (The Art of War)"
   },
   {
     "baslik": "Programmirlemä Giriş",
@@ -664,7 +892,9 @@
     "dosya": "kitaplar/programmirlemage-giris.txt",
     "bolumler": {
       "bolum": "^BÖLÜM [IVXL]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/programmirlemage-giris.txt",
+    "baslik_tm": "Programmirlemä Giriş"
   },
   {
     "baslik": "Meditations",
@@ -672,7 +902,9 @@
     "dosya": "kitaplar/meditations.txt",
     "bolumler": {
       "part": "^THE [A-Z]+ BOOK$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/meditations.txt",
+    "baslik_tm": "Öz-özüme Oýlanmalar (Meditations)"
   },
   {
     "baslik": "The Enchiridion",
@@ -680,7 +912,9 @@
     "dosya": "kitaplar/enchiridion.txt",
     "bolumler": {
       "part": "^[IVXL]+\\.$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/enchiridion.txt",
+    "baslik_tm": "El Kitaby (Enchiridion)"
   },
   {
     "baslik": "As a Man Thinketh",
@@ -688,7 +922,9 @@
     "dosya": "kitaplar/as-a-man-thinketh.txt",
     "bolumler": {
       "part": "^(THOUGHT AND CHARACTER|EFFECT OF THOUGHT ON CIRCUMSTANCES|EFFECT OF THOUGHT ON HEALTH AND THE BODY|THOUGHT AND PURPOSE|THE THOUGHT-FACTOR IN ACHIEVEMENT|VISIONS AND IDEALS|SERENITY)$"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/as-a-man-thinketh.txt",
+    "baslik_tm": "Adam Nähili Pikir Etse (As a Man Thinketh)"
   },
   {
     "baslik": "On the Genealogy of Morals",
@@ -704,7 +940,9 @@
     "dosya": "kitaplar/art-controversy.txt",
     "bolumler": {
       "chapter": "^[IVXLCDM]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/art-of-controversy.txt",
+    "baslik_tm": "Hemişe Hakly Bolmagyň Sungaty"
   },
   {
     "baslik": "The Republic",
@@ -712,7 +950,9 @@
     "dosya": "kitaplar/republic.txt",
     "bolumler": {
       "book": "^BOOK [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/republic.txt",
+    "baslik_tm": "Döwlet (The Republic)"
   },
   {
     "baslik": "The Autobiography of Benjamin Franklin",
@@ -720,7 +960,9 @@
     "dosya": "kitaplar/franklin-autobiography.txt",
     "bolumler": {
       "bolum": "^[IVXLCDM]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/franklin-autobiography.txt",
+    "baslik_tm": "Benžamin Frankliniň Awtobiografiýasy"
   },
   {
     "baslik": "On War",
@@ -728,7 +970,9 @@
     "dosya": "kitaplar/on-war.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/on-war.txt",
+    "baslik_tm": "Uruş Hakda (On War)"
   },
   {
     "baslik": "The Picture of Dorian Gray",
@@ -736,7 +980,9 @@
     "dosya": "kitaplar/dorian-gray.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/dorian-gray.txt",
+    "baslik_tm": "Dorian Greýiň Portreti"
   },
   {
     "baslik": "The Importance of Being Earnest",
@@ -744,7 +990,9 @@
     "dosya": "kitaplar/earnest.txt",
     "bolumler": {
       "act": "^ACT [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/earnest.txt",
+    "baslik_tm": "Ciddi Bolmagyň Wajyplygy"
   },
   {
     "baslik": "Jane Eyre",
@@ -752,7 +1000,9 @@
     "dosya": "kitaplar/jane-eyre.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/jane-eyre.txt",
+    "baslik_tm": "Jeýn Eýr (Jane Eyre)"
   },
   {
     "baslik": "Wuthering Heights",
@@ -760,7 +1010,9 @@
     "dosya": "kitaplar/wuthering-heights.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/wuthering-heights.txt",
+    "baslik_tm": "Tupanly Geçelge (Wuthering Heights)"
   },
   {
     "baslik": "A Tale of Two Cities",
@@ -768,7 +1020,9 @@
     "dosya": "kitaplar/tale-of-two-cities.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/tale-of-two-cities.txt",
+    "baslik_tm": "Iki Şäheriň Hekaýasy"
   },
   {
     "baslik": "A Christmas Carol",
@@ -776,7 +1030,9 @@
     "dosya": "kitaplar/christmas-carol.txt",
     "bolumler": {
       "chapter": "^[IVXLCDM]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/christmas-carol.txt",
+    "baslik_tm": "Roždestwo Aýdymy (A Christmas Carol)"
   },
   {
     "baslik": "Oliver Twist",
@@ -784,7 +1040,9 @@
     "dosya": "kitaplar/oliver-twist.txt",
     "bolumler": {
       "chapter": "^[IVXLCDM]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/oliver-twist.txt",
+    "baslik_tm": "Oliwer Twist (Oliver Twist)"
   },
   {
     "baslik": "Adventures of Sherlock Holmes",
@@ -792,7 +1050,9 @@
     "dosya": "kitaplar/sherlock-adventures.txt",
     "bolumler": {
       "chapter": "^[IVXLCDM]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/sherlock-adventures.txt",
+    "baslik_tm": "Şerlok Holmsuň Başdan Geçirmeleri"
   },
   {
     "baslik": "The Hound of the Baskervilles",
@@ -800,7 +1060,9 @@
     "dosya": "kitaplar/hound-baskervilles.txt",
     "bolumler": {
       "chapter": "^[IVXLCDM]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/hound-baskervilles.txt",
+    "baslik_tm": "Baskerwilleriň Iti"
   },
   {
     "baslik": "A Study in Scarlet",
@@ -808,7 +1070,9 @@
     "dosya": "kitaplar/study-in-scarlet.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/study-in-scarlet.txt",
+    "baslik_tm": "Al-Gyzyl Etýud (A Study in Scarlet)"
   },
   {
     "baslik": "The Adventures of Tom Sawyer",
@@ -816,7 +1080,9 @@
     "dosya": "kitaplar/tom-sawyer.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/tom-sawyer.txt",
+    "baslik_tm": "Tom Soýeriň Başdan Geçirmeleri"
   },
   {
     "baslik": "Adventures of Huckleberry Finn",
@@ -824,7 +1090,9 @@
     "dosya": "kitaplar/huckleberry-finn.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/huckleberry-finn.txt",
+    "baslik_tm": "Geklberri Finniň Başdan Geçirmeleri"
   },
   {
     "baslik": "Alice's Adventures in Wonderland",
@@ -832,7 +1100,9 @@
     "dosya": "kitaplar/alice-wonderland.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/alice-wonderland.txt",
+    "baslik_tm": "Alisa Täsinlikler Dünýäsinde"
   },
   {
     "baslik": "The Call of the Wild",
@@ -840,7 +1110,9 @@
     "dosya": "kitaplar/call-of-the-wild.txt",
     "bolumler": {
       "chapter": "^[IVXLCDM]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/call-of-the-wild.txt",
+    "baslik_tm": "Ýabany Tebigatyň Çagyryşy"
   },
   {
     "baslik": "White Fang",
@@ -848,7 +1120,9 @@
     "dosya": "kitaplar/white-fang.txt",
     "bolumler": {
       "chapter": "^CHAPTER [IVXLCDM0-9]+\\.?"
-    }
+    },
+    "dosya_tm": "kitaplar/tm/white-fang.txt",
+    "baslik_tm": "Ak Diş (White Fang)"
   },
   {
     "baslik": "Martin Eden",
@@ -1007,7 +1281,7 @@
     "yazar": "R. L. Stevenson",
     "dosya": "kitaplar/treasure-island.txt",
     "bolumler": {
-      "chapter": "^[IVXLCDM]+\\."
+      "part": "^PART [A-Z]+$"
     }
   },
   {
@@ -1080,7 +1354,9 @@
     "dosya": "kitaplar/crito.txt",
     "bolumler": {
       "chapter": "^[IVXLCDM]+\\."
-    }
+    },
+    "dosya_tm": "kitaplar/tm/crito.txt",
+    "baslik_tm": "Kriton (Crito)"
   },
   {
     "baslik": "Phaedo",
@@ -1127,7 +1403,7 @@
     "yazar": "J. M. Barrie",
     "dosya": "kitaplar/peter-pan.txt",
     "bolumler": {
-      "chapter": "^[IVXLCDM]+\\."
+      "part": "^Chapter [IVXLC]+\\.$"
     }
   },
   {

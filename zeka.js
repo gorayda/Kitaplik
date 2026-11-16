@@ -12,7 +12,7 @@
     kutu.id='testler';
     kutu.innerHTML='<small>Testler</small>';
     var kk=document.getElementById('kitaplar');
-    kk.parentNode.insertBefore(kutu,kk);
+    document.body.appendChild(kutu);
   }
   function karistir(a){
     var b=a.slice();
